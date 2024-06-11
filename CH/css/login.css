@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(to left, #dcc2fc, #94c6fc);
+}
+
+div {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+}

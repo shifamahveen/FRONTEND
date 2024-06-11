@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+} 
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+ button {
+    background-color: green;
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+nav {
+    margin-top: 200px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}

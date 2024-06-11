@@ -1,0 +1,46 @@
+h1 {
+    color: green;
+    background-color: yellow;
+    font-size: 50px;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+div {
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: brown; */
+    border: 5px solid green;
+    /* top right bottom left */
+    padding: 25px 50px;
+    /* y-axis x-axis */
+    text-align: center;
+    margin: auto;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
+a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 35px;
+    padding: 10px 20px;
+}
+
+a:hover, button:hover{
+    background-color: rgb(78, 78, 247);
+    cursor:pointer;
+}
