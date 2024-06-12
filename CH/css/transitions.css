@@ -1,0 +1,36 @@
+div {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+
+    /* transform: rotate(angle); */
+    /* transform: skew(-50deg); */
+    transform: scale(0.5);
+}
+
+p {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    transform: translateX(-50px);
+    transform: translateY(-10px);
+}
+
+.btn1, .btn {
+    padding: 10px 30px;
+    border-radius: 35px;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    transition: transform .5s ease-in-out;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btn:hover {
+    transform: translate(10px, -5px);
+}
