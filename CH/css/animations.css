@@ -1,0 +1,49 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(201, 198, 198);
+    border-radius: 50%;
+    border-top: 10px blue solid;
+    /* animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 2s; */
+    animation: rotation 2s linear 2s infinite reverse;
+    /* animation-direction: alternate-reverse; */
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        border-top: 10px red solid;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+p {
+    width: 200px;
+    height: 200px;
+    animation: sample 5s linear 2s;
+}
+
+@keyframes sample {
+    0% {
+        background-color: aqua;
+    }
+    25% {
+        background-color: blue;
+        transform: scaleX(10%);
+    }
+    50% {
+        background-color: blueviolet;
+        transform: scaleX(20%);
+    }
+    100% {
+        background-color: crimson;
+    }
+}
