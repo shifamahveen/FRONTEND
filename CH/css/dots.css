@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 15px;
+    animation: preload 1.5s ease-in-out infinite;
+}
+
+.dot:nth-of-type(2) {
+    animation-delay: 0.3s;
+}
+
+.dot:last-of-type {
+    animation-delay: 0.6s;
+}
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes preload {
+    0%, 100% {
+        background-color: black;
+        transform: scale(0);
+    }
+    50% {
+        background-color: gray;
+        transform: scale(1.5);
+    }
+}

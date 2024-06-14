@@ -17,6 +17,9 @@ h1 {
 
 .intro {
     padding: 10px 0;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 25px;
 }
 
 a:first-of-type{
@@ -91,4 +94,56 @@ a:last-of-type {
     position: relative;
     right: 50px;
     top: 50px;
+}
+
+.card {
+    width: 30%;
+    height: 200px;
+    background-color: red;
+    margin: 15px;
+}
+
+.cards {
+    justify-content: space-between;
+}
+
+img {
+    opacity: 0.;
+}
+
+/* media queries */
+@media (min-width: 501px) and (max-width: 769px) {
+    .hero {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .cards {
+        padding: 50px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .cards {
+        padding: 50px;
+        flex-direction: column;
+    }
+    .card {
+        width: 90%;
+    }
+
+    .hide {
+        /* display: none; */
+        visibility: hidden;
+    }
 }
